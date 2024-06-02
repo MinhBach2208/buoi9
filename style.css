@@ -1,0 +1,48 @@
+.bookstore-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+    
+}
+.bookstore-item{
+    width: 300px;
+    height: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+span{
+    font-size: 30px;
+    font-weight: bold;
+    
+    text-align: center;
+    color: red;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+   
+    
+    padding:  5px;
+    border-radius: 10px;
+    background-color: aqua;
+    color: black;
+    border: 10px solid white;
+    display: flex;
+    
+}
+div{
+    display: flex;
+    /* align-items: center; */
+}
